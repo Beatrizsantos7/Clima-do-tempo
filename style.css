@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@700 & family= Vollkorn:ital@1 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Tangerine & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Unna:ital@1 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9, 9, 121, 0.688) 24%, rgba(1, 194, 242, 0.762) 63%, rgba(1, 194, 242, 0.523) 82%, rgba(225, 255, 0, 0.671) 100%);
+    background-image: url(img/clima.jpg\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+header {
+    background-color: rgba(245, 239, 239, 0.038);
+    width: 100%; 
+    margin-top: -15px;   
+}
+
+#titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: 1%;
+    font-family: 'Unna', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#input_clima {
+    margin: 4%;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.414);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 196, 228);
+}
+
+#input_clima::placeholder {
+    color: rgba(255, 255, 255, 0.691);
+    font-size: 1rem;
+}
+
+
+.addBtn {
+    width: 5%;
+    height: 2rem;
+    margin-top: 3.7%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#temperatura {
+    font-size: 9rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow:rgb(5, 30, 61) 0.0em 0.0em 0.10em;
+    font-family: cursive;
+    font-weight: bold;
+
+
+}
+
+.temp_escrita {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.10em;
+    font-size: 2.5rem;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h3 {
+    color: rgb(236, 230, 230);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.10em;
+    font-size: 3rem;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 350px) {
+    .addBtn {
+        width: 50px;
+    } 
+}
